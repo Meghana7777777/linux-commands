@@ -51,7 +51,7 @@ Git installation:
 -- git restore  --staged filename : it untracks the file
 -- git restore  --staged .        : it untracks all the files ("." = all files)
 -- git commit -m "any message"    : push the files to remote repository 
--- git log : to see the committed files (and also stores committed files after it deleted)
+-- git log                        : to see the committed files (and also stores committed files after it deleted)
 -- git remote add origin url      : To verify that the remote repo was added to your configuration
 -- git push origin branch         : that pushes a local branch(es) to a remote repository (origin)
 -- git remote -v                  : This command will show that GitHub is the fetch and push targets of the local repository
