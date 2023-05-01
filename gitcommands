@@ -88,7 +88,7 @@ Git installation:
 *Git merging:
 -------------
 -- Merging is Git's way of putting a forked history back together again.
--- To merge branches locally, use git checkout to switch to the branch you want to merge into. This branch is typically the main branch. Next, use git merge and specify the name of the other branch to bring into this branch.
+-- To merge branches locally, use git checkout to switch to the branch you want to merge into. This branch is typically the main      branch. Next, use git merge and specify the name of the other branch to bring into this branch.
 *  git checkout branch : to swtich the branch (destinaation branch)
 *  git merge branch    : merging files (source branch)
 
@@ -97,4 +97,4 @@ Git installation:
 --git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location.
 *  git clone url
 *  git clone -b branch name url : to clone from particular branch
-*  git pull origin branch name  : fetches commits from the master branch of the origin remote (into the local origin/master branch), and then it merges origin/master into the branch you currently have che                                 cked out. `git pull` only works if the branch you have checked out is tracking an upstream branch.
+*  git pull origin branch name  : fetches commits from the master branch of the origin remote (into the local origin/master  branch)    and then it merges origin/master into the branch you currently have checked out. `git pull` only works if the branch you have checked out is tracking an upstream branch.
