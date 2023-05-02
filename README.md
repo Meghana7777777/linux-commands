@@ -339,7 +339,7 @@ Network Management:
 
 * uname -a - show kernel config 
 
-* man - shoe documentation of tool ,command, software
+* man - show documentation of tool ,command, software
 
 * du - show disk usage space 
 
