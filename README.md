@@ -191,7 +191,7 @@ Finding Stuff:
 * echo $ PATH - used to display the path of the url  
 * find    - used to find/ search files
   ex : find filename
-* grep    - used to search through the file ,looking for matches to the pattern             specified 
+* grep    - used to search through the file ,looking for matches to the pattern specified 
   ex : grep 'word'filename
 
 Process Management:
@@ -223,7 +223,7 @@ Process Management:
   ex : top
        PID USER PR NIC VIRT RES %CPU %MEM COMMAND
 
-* kill - used to stop running process and also used to way of communicate a              process 
+* kill - used to stop running process and also used to way of communicate a process 
        - its suspend, terminate, stop, break, pause, restart, continue
    ex : kill -l 
        
@@ -286,18 +286,18 @@ Network Management:
 
 * dig -x domain -reverse lookup host
 
-* wget - the wget is the free non-interactive file download , can work in back           ground when user to get disconnected with the system while wget finish          its work 
+* wget - the wget is the free non-interactive file download , can work in back ground when user to get disconnected with the system    while wget finish its work 
   ex : wget file
        wget -c file -- continue stopped download
        wget -r curl --recursively download files from curl
 
-* env - used to display your current environment or run a specified command in a        changed environment
+* env - used to display your current environment or run a specified command in a changed environment
   ex : env
 
 * export - used to mark variables and functions to be passed to child process
   ex : export
 
-*crontab - dispaly a list of commands that you want to run on a regular                    schedule
+*crontab - dispaly a list of commands that you want to run on a regular schedule
 
 * tar - used for saving several files into an archive
   ex : tar cf file.tar file -- tar files into the file.tar
@@ -310,25 +310,21 @@ Network Management:
 * unzip - used to decompress and extract the content from the compress archived
  ex : gunzip filename
 
-* http - http stands for a hypertext transfer protocol used for transferring             data over a network , includes website content and API calls ,uses http         protocol. There are two main kinds of http messages: request and                responses.
+* http - http stands for a hypertext transfer protocol used for transferring data over a network ,includes website content and API calls ,uses http protocol. There are two main kinds of http messages: request and responses.
 
-* https -The S in https stands for secure. Https uses TLS(SSL) to encrypt                normal  http requests and responses.As a result ,https is far more              secure than http.
+* https -The S in https stands for secure. Https uses TLS(SSL) to encrypt normal  http requests and responses.As a result ,https is far more secure than http.
 
-* internal network - An internal network , called an intranet , is one which is                      restricted to a difined set of users.An example would be a
-                     network accessed only by the employees  of a specific 
-                     company.
+* internal network - An internal network , called an intranet , is one which is restricted to a difined set of users.An example would be a network accessed only by the employees  of a specific company.
 
-* external network - An external network allows users of all types access.
-                     Besides the internet, an example would include a network                        that allows customers to connect s company to place orders.* public subnet - Instances in public subnet can connect directly to the 
-                  internet through an nternet gateway 
+* external network - An external network allows users of all types access. Besides the internet, an example would include a network that allows customers to connect s company to place orders.
 
-* private subnet - Instances in private subnet can connect to the internet
-                   using a network address translation (NAT) gateway,but cant
-                   receive unsolicited inbound connections from internet.
-* TCP - TCP means transmission control protocol , is a connection based protocol        while tcp is more reliable,it transfers data more slowly .
+* public subnet - Instances in public subnet can connect directly to internet through an nternet gateway 
 
-* UDP - UDP means user datagram protocol ,is a connectionless. UDP is less 
-        reliable but works more quickly.
+* private subnet - Instances in private subnet can connect to the interne using a network address translation (NAT) gateway,but cant receive unsolicited inbound connections from internet.
+
+* TCP - TCP means transmission control protocol , is a connection based protocol while tcp is more reliable,it transfers data more slowly .
+
+* UDP - UDP means user datagram protocol ,is a connectionless. UDP is less reliable but works more quickly.
 
 * System Info:
 =============
@@ -351,8 +347,7 @@ Network Management:
 
 * diff - show difference between files
 
-* wc - used to find out number of lines ,word count,byte and characters count
-       in the files specified in the file arguments
+* wc - used to find out number of lines ,word count,byte and characters count in the files specified in the file arguments
  ex : wc [option] filename
 
 * SSH secure shell:
@@ -370,6 +365,5 @@ Network Management:
 
 * ssh user@host - connect to host as user
 
-* scp - scp means secure transferring comuter files between a local host and
-        a remote host or between two remote hosts
+* scp - scp means secure transferring comuter files between a local host and a remote host or between two remote hosts
   
