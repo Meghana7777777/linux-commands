@@ -365,5 +365,5 @@ Network Management:
 
 * ssh user@host - connect to host as user
 
-* scp - scp means secure transferring computer files between a local host and a remote host or between two remote hosts
+* scp - scp means secure transferring computer files between a local host and a remote host or between two remote hosts.
   
