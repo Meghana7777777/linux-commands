@@ -98,3 +98,78 @@ Git installation:
 *  git clone url
 *  git clone -b branch name url : to clone from particular branch
 *  git pull origin branch name  : fetches commits from the master branch of the origin remote (into the local origin/master  branch)    and then it merges origin/master into the branch you currently have checked out. `git pull` only works if the branch you have checked out is tracking an upstream branch.
+
+
+DOCKERE COMMANDS:
+=================
+
+* docker built -t name -build an image from the dockerfile in the current directory and tag the image
+
+* docker images - list all images
+
+* docker rmi id/name - remove the image
+
+* docker create image - its create the container
+
+* docker run image - its create the container and give response
+
+* docker rename old container name new container name - its rename the container name
+
+* docker container prune - used to remove all the stoped containers are present
+
+* docker rm containername/id - remove the container
+
+* docker rm containername/id -f - remove contianer force fully
+
+* docker ps -a - list the containers
+
+* docker container ls - list the containers
+
+* docker start containername/id - starts the container
+
+* docker stop containername/id - stop the container
+
+* docker restart containerid/name - restart the container
+
+* docker container commit containername imagename - it creates the image by using container
+
+* docker exec -it container bash - connect to the container
+
+* docker wait containername - it blocked the container
+
+* docker kill container - it kills the container
+
+* docker pull <image-name> -  pull an image from a registry
+
+* docker push image - push an image to a registry
+
+* docker login - used to login into docker hub
+
+* docker push image - push the image to dockerhub
+
+* docker info - get infomation of docker tool
+
+* docker history image - display history if an image with the image name mentioned in the command
+
+* docker volume ls - display the volumes
+
+ DOCKER SWARM :
+================
+
+* docker swarm init - used to initialized the docker container
+
+* docker swam join --token position, details - to join the node into the swarm
+
+* docker node ls - list the nodes
+
+* docker swarm leave -f - used to left the node
+
+* docker-compose -version - display the version
+
+* docker-compose up - run our docker compose file
+
+* docker-compose dockerfile up - used to run particular mentioned compose file
+
+                                                                                                                                                                                 15,1          Top
+
+
