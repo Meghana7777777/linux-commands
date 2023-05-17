@@ -441,89 +441,139 @@ DOCKERE COMMANDS:
 
 Git:
 ===
+
 -- It is a version control system(VSC)  or source control system .
+
 -- It is a platform independent.
+
 -- It is used for track the changes in a file.
+
 -- It is free and open souce .
+
 -- They can handle largh projects efficiently.
 
 Git Stages:
 ========== 
+
 -- Working Directory 
+
 -- Storing area
+
 -- Rrepository 
 
 * Working directory:
 ---------------------
+
 -- In this stage git is only aware of having files in the project .
+
 -- Modified means that you changed the file but have not committed.
 
 * Staging area:
 ---------------
+
 -- The staging area is like rough draft space, its where you can git add the version of file.
 
 * Repository:
 -------------
+
 -- A repository has all the project related data.
+
 -- It contain all collection of the files and also history of changes made to those files.
 
 Types of Repos:
 ==============
+
 -- Local repository
+
 -- Central repository
+
 -- Remote repository 
 
 Git installation:
 =================
+
 -- sudo update
+
 -- sudo apt-get install git
 
 * Configuration user:
 --------------------
+
 -- username  : git config user.name "username"
+
 -- e-mail id : git config user.email "email"
 
 * Git Commands:
 ---------------
+
 -- git init                       : create empty git repository 
+
 -- git status                     : it displays the nimber of files(untracked files, tracked files and deletes files)
+
 -- git add filename               : it tracks the file
+
 -- git add .                      : it tracks all files in working directory ("." = all files) 
+
 -- git restore  --staged filename : it untracks the file
+
 -- git restore  --staged .        : it untracks all the files ("." = all files)
+
 -- git commit -m "any message"    : push the files to remote repository 
+
 -- git log                        : to see the committed files (and also stores committed files after it deleted)
+
 -- git remote add origin url      : To verify that the remote repo was added to your configuration
+
 -- git push origin branch         : that pushes a local branch(es) to a remote repository (origin)
+
 -- git remote -v                  : This command will show that GitHub is the fetch and push targets of the local repository
 
 *Ignoring Content:
 ------------------
+
 -- It will be useful when you don't want to track some specific files then we use a file called ".gitignore".
+
 -- vi .gitignore 
 
 * Git branches :
 ---------------
+
 -- A branch represents a independent line of development.
+
 -- The git branch command lets you are create , list, rename and delete.
+
 -- The default branch name in git is 'master'.
+
 *  git branch                           : to see current branch  
+
 *  git branch 'branchname'              : to add a new branch 
+
 *  git checkout branch name             : to switch branches
+
 *  git checkout -b branch name          : to create and switch at a time to branch 
+
 *  git branch -m old name new name      : to rename a branch
+
 *  git branch -d branch name            : to delete a branch 
+
 -- use '-D' instead if you want to force the branch to be deleted
+
 *  git restore filename                 : restore deleted files
+
 *  git push origin --delete branch name : it deletes branch from remote repository
 
 * Git Tags:
 ------------
 -- git tag                      : to see current tag
+
 -- git tag name(v1.0)           : to create new tag
+
 -- git tag -a name  -m "message": create and allotated message  at a time to tag
+
 -- git show tag name            : to display infomation about tag( version ..)
+
 -- git push origin tagname      : push local to remote
+
 -- git push origin --tags       : The command pushes all local tags to the specified origin repository
 
 *Git merging:
@@ -536,8 +586,11 @@ Git installation:
 *Git cloning:
 -------------
 --git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location.
+
 *  git clone url
+
 *  git clone -b branch name url : to clone from particular branch
+
 *  git pull origin branch name  : fetches commits from the master branch of the origin remote (into the local origin/master  branch)    and then it merges origin/master into the branch you currently have checked out. `git pull` only works if the branch you have checked out is tracking an upstream branch.
 
 
